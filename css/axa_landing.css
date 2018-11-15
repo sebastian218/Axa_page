@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+.banner_principal{
+
+  position: absolute;
+  z-index: -1;
+  width: 90%;
+}
+.container{
+
+/*background-image: url(../img/imagen-principal.jpg);*/
+display: flex;
+flex-flow: column;
+align-items: center;
+width: 90%;
+margin: 0 auto;
+}
+
+.formulario{
+
+    margin-top: 38vh;
+    background-color: grey;
+    width: 40%;
+    border-radius: 3%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 4px;
+}
+.banner_mastercard{
+  margin-top: 2vh;
+  width:40%;
+}
+.formulario h1{
+
+color: white;
+font-size: 20px;
+text-align: center;
+
+}
+
+.formulario p{
+
+
+    color: #F39C12  ;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.comunicateAl{
+
+  background-color: #F39C12;
+  border-radius: 6px;
+  width: 50%;
+  text-align: center;
+  margin-top: 2.5vh;
+  padding: 5px;
+}
+
+.comunicateAl p{
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  font-size: 10px;
+}
+
+.comunicateAl h3{
+   color: white;
+   margin-top: 0;
+   margin-bottom: 0;
+
+}
+form label {
+  color: white;
+}
+form div{
+  display: flex;
+  flex-flow: column;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.articulos{
+  display: flex;
+  flex-flow: row;
+
+}
+
+.art-add{
+  width: 30%;
+}
