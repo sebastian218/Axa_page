@@ -1,11 +1,22 @@
 * {
   box-sizing: border-box;
 }
+body{
+font-family: sans-serif;
+width: 90%;
+margin: 0 auto;
+
+}
 .banner_principal{
 
   position: absolute;
   z-index: -1;
-  width: 90%;
+  width: 75%;
+}
+img.mastercard{
+
+  width: 21%;
+  margin-top: 4vh;
 }
 .container{
 
@@ -19,8 +30,8 @@ margin: 0 auto;
 
 .formulario{
 
-    margin-top: 38vh;
-    background-color: grey;
+    margin-top: 30vh;
+    background-color: #5D5B59;
     width: 40%;
     border-radius: 3%;
     display: flex;
@@ -37,15 +48,19 @@ margin: 0 auto;
 color: white;
 font-size: 20px;
 text-align: center;
+margin-bottom: 0;
 
 }
 
-.formulario p{
+.formulario p.comunicate{
 
 
     color: #F39C12  ;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
+    text-decoration: underline;
+    text-underline-position: under;
+
 
 }
 
@@ -55,7 +70,8 @@ text-align: center;
   border-radius: 6px;
   width: 50%;
   text-align: center;
-  margin-top: 2.5vh;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
   padding: 5px;
 }
 
@@ -70,6 +86,7 @@ text-align: center;
    color: white;
    margin-top: 0;
    margin-bottom: 0;
+   font-size: 26px;
 
 }
 form label {
@@ -78,6 +95,8 @@ form label {
 form div{
   display: flex;
   flex-flow: column;
+  width: 38%;
+  margin-top: 1.5vh;
 }
 
 .inputs {
@@ -113,7 +132,25 @@ margin: -25px;
 }
 
 article.art-add p{
-   font-size: 10px; 
+   font-size: 10px;
   padding: 12px;
+
+}
+
+.enviar input{
+
+  background-color: #5D5B59;
+  color: #F39C12;
+  border-color: #F39C12;
+  width: 44%;
+  margin-bottom: 12px;
+  border-radius: 5px;
+
+}
+div.enviar {
+
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 
 }
