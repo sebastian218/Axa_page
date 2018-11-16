@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
@@ -10,70 +10,75 @@
   </head>
   <body>
     <div class="container">
-      <img class="mastercard" src="../img/Recurso 3.png" alt="">
-      <div class="formulario">
+      <header class="logo"><!-- Logo -->
+        <img class="mastercard" src="img/logo.svg" alt="">
+      </header>
+      <section class="banner"><!-- main banner -->
+        <img class="background" src="./img/main-banner.jpg" alt="banner principal">
+        <div class="claim">
+          <img src="./img/claim.png" alt="claim y oferta">
+        </div>
+      </section>
+      <section class="formulario"><!-- form -->
+        <h1>Contratá ahora tu asistencia al viajero con masterassist</h1>
+        <div class="comunicateAl">
+        <img src="./img/contact-line.png" alt="">
+        </div>
+        <p class="comunicate">ó completá tus datos y nos comunicaremos a la brevedad.</p>
 
-             <h1>Contratá ahora tu asistencia al viajero <br> con MASTERASSIST</h1>
-             <div class="comunicateAl">
-                   <p>COMUNICATE AL</p>
-                   <h3>0800 266 1613</h3>
-
-             </div>
-             <p class="comunicate" >Ó COMPLETÁ TUS DATOS Y NOS COMUNICAREMOS A LA BREVEDAD.</p>
-
-      <form class="inputs" action="axa_landing.html" method="email">
-
-
-
-         <div class="form_nombre">
-           <label for="nombre">Nombre</label>
-           <input type="text" id="nombre" name="nombre" value="">
-         </div>
-
-         <div class="form_apellido">
-           <label for="apellido">Apellido</label>
-           <input type="text" id="apellido" name="apellido" value="">
-         </div>
-
-         <div class="form_telefono">
-           <label for="telefono">Teléfono</label>
-           <input type="text" id="telefono" name="telefono" value="">
-         </div>
-
-         <div class="form_mail">
-           <label for="mail">Mail</label>
-           <input type="email" id="mail" name="mail" value="">
-         </div>
-
-          <div class="enviar">
-            <input class="llamar-enviar"  type="submit" name="" value="Enviar">
-            <input class="llamar-enviar"  type="submit" name="" value="llamar">
+        <form class="inputs" action="" method="post">
+          <div class="row">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" value="">
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" value="">
+            </div>
           </div>
-
-      </form>
-
-  </div>
-
-      <div class="articulos">
+          <div class="row">
+            <div class="form-group phone">
+              <label for="telefono">Teléfono</label>
+              <div class="phone-number">
+                <input class="prefix" type="number" id="telefono" name="prefix" value="">
+                <input class="number" type="number" id="number" name="number" value="">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mail">Mail</label>
+              <input type="email" id="mail" name="mail" value="">
+            </div>
+          </div>
+          <input class="button" type="submit" name="" value="Enviar">
+        </form>
+      </section>
+      <footer class="benefits">
         <article class="art-add texto-largo">
-            <img src="../img/Recurso 4.png" alt="">
+          <img src="./img/monto.png" alt="">
+          <div class="content">
             <p>Monto de gastos médicos/enfermedad <strong>hasta u$s 250.000</strong> por persona asegurada </p>
+          </div>
         </article>
         <article class="art-add">
-            <img src="../img/Recurso 5.png" alt="">
+          <img src="./img/cobertura.png" alt="">
+          <div class="content">
             <p>Cobertura incluída para países europeos</p>
+          </div>
         </article>
         <article class="art-add">
-          <img src="../img/Recurso 6.png" alt="">
-          <p>Pérdida, demora y rotura de equipaje</p>
+          <img src="./img/perdida.png" alt="">
+          <div class="content">
+            <p>Pérdida, demora y rotura de equipaje</p>
+          </div>
         </article>
         <article class="art-add sin-borde">
-          <img src="../img/Recurso 7.png" alt="">
-          <p>Cancelación <br> y demora de vuelo</p>
+          <img src="./img/cancelacion.png" alt="">
+          <div class="content">
+            <p>Cancelación <br> y demora de vuelo</p>
+          </div>
         </article>
-
-      </div>
-
+      </footer>
     </div>
   </body>
 </html>
