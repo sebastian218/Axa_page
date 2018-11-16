@@ -98,7 +98,7 @@ form.inputs div {
 
     display: flex;
     flex-flow: column;
-    width: 45%;
+    width: 90%;
     margin-top: 0.5vh;
 
 }
@@ -159,7 +159,11 @@ article.art-add img {
 body{
   background-image: url(../img/imagen-principal-desktop.jpg);
 }
+form.inputs div {
 
+      width: 45%;
+
+}
   img.mastercard {
       width: 30%;
       margin-top: 2.5vh;
