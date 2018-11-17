@@ -125,7 +125,7 @@ input{
    background-color: transparent;
    padding: 6px 9px;
    border-radius: 4px;
-   border-color: #e19d2f;
+   border: 1px solid #e19d2f;
    color: #e19d2f;
    font-weight: bold;
    font-size: 1.4em;
