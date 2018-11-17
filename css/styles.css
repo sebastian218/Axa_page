@@ -41,10 +41,13 @@ img.background{
 main{
   background: url(../img/main-banner.jpg) no-repeat center 0;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
 .claim {
   max-width: 440px;
-  margin: 0 auto 24px;
+  margin-bottom: 24px;
 }
 .claim img {
   width: 100%;
@@ -58,12 +61,15 @@ h1{
 .brand{
   text-transform: uppercase;
 }
+.comunicateAl img{
+  max-width: 296px;
+  width: 100%;
+}
 .comunicate{
   color: #e19d2f;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  /* border-bottom: 2px solid #e19d2f; */
   text-underline-position: under;
   text-decoration: underline;
   line-height: 1.5em;
@@ -74,7 +80,6 @@ h1{
 .formulario{
   text-align: center;
   max-width: 550px;
-  margin: 0 auto;
   background: #636363;
   border-radius: 16px;
   padding: 3em;
@@ -85,9 +90,9 @@ h1{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 15px;
 }
 .form-group {
+  margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -130,7 +135,7 @@ input{
 ================== */
 .benefits{
   max-width: 832px;
-  margin: 7em auto;
+  margin: 7em 0 2em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -164,4 +169,35 @@ input{
 }
 .art-add:last-child p{
   border: none;
+}
+
+/*
+Responsive
+=========================== */
+@media(max-width:850px){
+  .benefits{
+    flex-direction: column;
+    max-width: 550px;
+  }
+  .art-add {
+    margin-bottom: 3em;
+  }
+  .art-add .content{
+    width: 100%;
+    padding: 45px 90px 20px;
+  }
+  .content p{
+    display: block;
+    border: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .row{
+    flex-direction: column;
+  }
+  .art-add .content{
+    width: 100%;
+    padding: 45px 40px 20px;
+  }
 }
