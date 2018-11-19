@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Master Assist</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="logo"><!-- Logo -->
+        <img class="mastercard" src="img/logo.svg" alt="">
+      </header>
+      <main>
+        <section class="claim">
+          <img src="./img/claim.png" alt="claim y oferta">
+        </section>
+        <section class="formulario"><!-- form -->
+          <h1>Contratá ahora tu asistencia al viajero con <span class="brand">masterassist</span></h1>
+          <div class="comunicateAl">
+          <a href="tel:08002661613"><img src="./img/contact-line.png" alt=""></a>
+          </div>
+          <p class="comunicate">ó completá tus datos y nos comunicaremos a la brevedad.</p>
+
+          <form class="inputs" action="" method="post">
+            <div class="row">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="first_name" value="">
+              </div>
+              <div class="form-group">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="last_name" value="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group phone">
+                <label for="telefono">Teléfono</label>
+                <div class="phone-number">
+                  <input class="prefix" type="number" id="telefono" name="tel_prefix" value="">
+                  <input class="number" type="number" id="number" name="tel_number" value="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="mail">Mail</label>
+                <input type="email" id="mail" name="email" value="">
+              </div>
+            </div>
+            <button class="button" type="submit" name="">ENVIAR</button>
+          </form>
+        </section>
+        <footer class="benefits">
+          <article class="art-add large">
+            <img src="./img/monto.png" alt="">
+            <div class="content">
+              <p>Monto de gastos médicos/ enfermedad <strong>hasta u$s 250.000</strong> por persona asegurada.</p>
+            </div>
+          </article>
+          <article class="art-add">
+            <img src="./img/cobertura.png" alt="">
+            <div class="content">
+              <p>Cobertura incluída para países europeos.</p>
+            </div>
+          </article>
+          <article class="art-add">
+            <img src="./img/perdida.png" alt="">
+            <div class="content">
+              <p>Pérdida, demora y rotura de equipaje.</p>
+            </div>
+          </article>
+          <article class="art-add sin-borde">
+            <img src="./img/cancelacion.png" alt="">
+            <div class="content">
+              <p>Cancelación y demora de vuelo.</p>
+            </div>
+          </article>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
