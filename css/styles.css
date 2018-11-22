@@ -149,6 +149,7 @@ input{
 }
 .art-add img{
   z-index: 999;
+  min-width: 86px; /* Evita que Firefox achique las imágenes */
 }
 .art-add .content{
   background-color: #e9eaec;
